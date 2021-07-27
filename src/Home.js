@@ -4,7 +4,30 @@ import { Route, Switch, NavLink, BrowserRouter } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 
-const Home = () => (
+class Home extends React.Component { 
+
+
+  constructor(){
+    super();
+    this.state={
+      user:null
+    }
+  }
+
+componentDidMount(){
+  fetch('https://reqres.in/api/users').then((resp)=> {
+    resp.json().then((result)=>{
+      // console.warn(result)
+      this.setState({users:result.data})
+    })
+  })
+}
+
+
+
+render(){
+
+  return(
   
    <>
 
@@ -42,6 +65,47 @@ const Home = () => (
 
 
 
+  <div className="">
+      
+
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-12 m-auto">
+            <table className="w-100 text-center">
+              <tr>
+                <th>No</th>
+                <th>Image</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Email</th>
+                
+              </tr>
+
+              {
+  
+              this.state.users ?
+              this.state.users.map((item,i)=>
+              <tr>
+                <td>{item.id}</td>
+                <td><img style={{width:"50px"}} src={item.avatar}/></td>
+                <td>{item.first_name}</td>
+                <td>{item.last_name}</td>
+                <td>{item.email}</td>
+                
+              </tr>
+              )
+              :
+              null
+              }
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+     
+  </div>
+
 
 
 
@@ -49,5 +113,8 @@ const Home = () => (
    </>
 
 );
+}
+
+}
 
 export default Home;
