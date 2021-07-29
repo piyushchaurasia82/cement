@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Route, Switch, NavLink, BrowserRouter } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 
@@ -223,7 +222,7 @@ return (
 						<div className="col-md-3 col-6 mb-4">
 				          <div className="bor_ra">
 				            <NavLink to="Productdetails">
-				            <img src="img/ceppcgacc0001.png"/>
+				            <img src={"img/ceppcgacc0001.png"}/>
 				            </NavLink>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
@@ -242,7 +241,7 @@ return (
 						<div className="col-md-3 col-6 mb-4">
 				          <div className="bor_ra">
 				            <NavLink to="Productdetails">
-				            <img src="img/ceppcgacc0001.png"/>
+				            <img src={"img/ceppcgacc0001.png"}/>
 				            </NavLink>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
@@ -261,7 +260,7 @@ return (
 						<div className="col-md-3 col-6 mb-4">
 				          <div className="bor_ra">
 				           <NavLink to="Productdetails"> 
-				           <img src="img/ceppcgacc0001.png"/>
+				           <img src={"img/ceppcgacc0001.png"}/>
 				           </NavLink>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
@@ -280,7 +279,7 @@ return (
 						<div className="col-md-3 col-6 mb-4">
 				          <div className="bor_ra">
 				          <NavLink to="Productdetails">  
-				          <img src="img/ceppcgacc0001.png"/>
+				          <img src={"img/ceppcgacc0001.png"}/>
 				          </NavLink>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
@@ -299,7 +298,7 @@ return (
 						<div className="col-md-3 col-6 mb-4">
 				          <div className="bor_ra">
 				            <NavLink to="Productdetails">
-				            <img src="img/ceppcgacc0001.png"/>
+				            <img src={"img/ceppcgacc0001.png"}/>
 				            </NavLink>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
@@ -318,7 +317,7 @@ return (
 						<div className="col-md-3 col-6 mb-4">
 				          <div className="bor_ra">
 				         <NavLink to="Productdetails">   
-				         <img src="img/ceppcgacc0001.png"/>
+				         <img src={"img/ceppcgacc0001.png"}/>
 				         </NavLink>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
@@ -337,7 +336,7 @@ return (
 						<div className="col-md-3 col-6 mb-4">
 				          <div className="bor_ra">
 				           <NavLink to="Productdetails"> 
-				           <img src="img/ceppcgacc0001.png"/>
+				           <img src={"img/ceppcgacc0001.png"}/>
 				           </NavLink>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">

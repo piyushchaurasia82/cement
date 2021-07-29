@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Route, Switch, NavLink, BrowserRouter } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Header(){
 return (
@@ -15,12 +14,12 @@ return (
         </div>
         <div className="col-md-3 col-6 d-flex align-items-center">
           <NavLink to="Home">
-            <img src="img/logo.png" className="w-75"/>
+            <img src={"img/logo.png"} className="w-75"/>
           </NavLink>
         </div>
         <div className="col-md-3 col-3 d-flex d-lg-none d-md-none align-items-center justify-content-end">
-          <NavLink to="cart.html">
-            <img src="img/cart.png" style={{width: "21px"}}/>
+          <NavLink to="Cart">
+            <img src={"img/cart.png"} style={{width: "21px"}}/>
           </NavLink>
         </div>
         <div className="col-md-6 d-flex align-items-center w-100">
@@ -32,9 +31,9 @@ return (
         <div className="col-md-3 top_link_cart d-lg-flex d-md-flex d-none ">
           <div className="text-white d-flex">
             
-              <img src="img/user.png" className="mr-2 mt-1"/>
+              <img src={"img/user.png"} className="mr-2 mt-1"/>
               <div>
-                <NavLink to="login.html">
+                <NavLink to="Login">
                 <p className="mb-0">My Account</p>
                 <span>Login/Signup</span>
                 </NavLink>
@@ -42,9 +41,9 @@ return (
             
           </div>
           <div className="text-white d-flex">
-            <img src="img/cart.png" className="mr-2 mt-1"/>
+            <img src={"img/cart.png"} className="mr-2 mt-1"/>
             <div>
-              <NavLink to="cart.html"><p className="mb-0">My Cart</p></NavLink>
+              <NavLink to="Cart"><p className="mb-0">My Cart</p></NavLink>
             </div>
           </div>
         </div>

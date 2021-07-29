@@ -45,13 +45,13 @@ render(){
   
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="img/homepage_1589207033914.jpeg"/>
+        <img src={"img/homepage_1589207033914.jpeg"}/>
       </div>
       <div className="carousel-item">
-        <img src="img/homepage_1566658122724.png"/>
+        <img src={"img/homepage_1566658122724.png"}/>
       </div>
       <div className="carousel-item">
-        <img src="img/homepage_1589207033914.jpeg"/>
+        <img src={"img/homepage_1589207033914.jpeg"}/>
       </div>
     </div>
     

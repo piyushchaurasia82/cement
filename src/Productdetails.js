@@ -1,5 +1,4 @@
-import React, { useRef, useState } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css"
@@ -26,35 +25,35 @@ function Productdetails() {
 
 					<Swiper spaceBetween={10} navigation={true} thumbs={{ swiper: thumbsSwiper }} className="mySwiper2">
 					<SwiperSlide>
-						<img src="img/ambuja_ppc.jpg"/>
+						<img src={"img/ambuja_ppc.jpg"}/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<img src="img/ceppcgacc0001.png"/>
+						<img src={"img/ceppcgacc0001.png"}/>
 					</SwiperSlide><SwiperSlide>
-						<img src="img/Ambuja-Cement.jpg"/>
+						<img src={"img/Ambuja-Cement.jpg"}/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<img src="img/ceppcgacc0001.png"/>
+						<img src={"img/ceppcgacc0001.png"}/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<img src="img/UltraTech-Cement-1024x576.jpg"/>
+						<img src={"img/UltraTech-Cement-1024x576.jpg"}/>
 					</SwiperSlide>
 
 					</Swiper>
 					<Swiper onSwiper={setThumbsSwiper} spaceBetween={10} slidesPerView={4} freeMode={true} watchSlidesVisibility={true} watchSlidesProgress={true} className="mySwiper">
 					<SwiperSlide>
-						<img src="img/ambuja_ppc.jpg"/>
+						<img src={"img/ambuja_ppc.jpg"}/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<img src="img/ceppcgacc0001.png"/>
+						<img src={"img/ceppcgacc0001.png"}/>
 					</SwiperSlide><SwiperSlide>
-						<img src="img/Ambuja-Cement.jpg"/>
+						<img src={"img/Ambuja-Cement.jpg"}/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<img src="img/ceppcgacc0001.png"/>
+						<img src={"img/ceppcgacc0001.png"}/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<img src="img/UltraTech-Cement-1024x576.jpg"/>
+						<img src={"img/UltraTech-Cement-1024x576.jpg"}/>
 					</SwiperSlide>
 					</Swiper>
 				  </div>
@@ -221,7 +220,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -240,7 +239,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -259,7 +258,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -278,7 +277,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -297,7 +296,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -316,7 +315,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -335,7 +334,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -354,7 +353,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
@@ -373,7 +372,7 @@ function Productdetails() {
 				<SwiperSlide>
 					<div className=" mb-4">
 				          <div className="bor_ra">
-				            <img src="img/brick_image.png"/>
+				            <img src={"img/brick_image.png"}/>
 				            <p>Greenstone's AAC Brick - 600mmX200mmX100mm (4")</p>
 				            <div className="price_box">
 				              <span>M.R.P: </span>
